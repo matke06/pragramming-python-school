@@ -1,0 +1,8 @@
+aleksadosao=int(input())
+aleksaotisao=int(input())
+djordjedosao=int(input())
+djordjeotisao=int(input())
+pocetak=max(aleksadosao, djordjedosao)
+kraj=min(aleksaotisao, djordjeotisao)
+vreme=max(kraj-pocetak, 0)
+print(vreme)
